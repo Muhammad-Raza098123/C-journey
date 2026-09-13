@@ -12,8 +12,8 @@ int main(){
 	scanf("%d",&sub4);
 	printf("Enter Marks of Subject Five: (0 - 100)\n");
 	scanf("%d",&sub5);
-	float aggr = (float)(sub1 + sub2 + sub3 + sub4 + sub5) / 5;
-	float per = avg * 100;
+	float avg = (float)(sub1 + sub2 + sub3 + sub4 + sub5) / 5;
+	float per = avg;
 	printf("The Average is: %.3f\n",avg);
 	printf("The percentage is: %.3f",per);
 	getch();
