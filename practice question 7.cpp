@@ -5,6 +5,6 @@ int main(){
 	printf("Enter Redius of circle: ");
 	scanf("%f",&r);
 	float area = pi * (r * r);
-	printf("\nThe Area of Triangle is: %.2f",area);
+	printf("\nThe Area of Circle is: %.2f",area);
 	return 0;
 }
